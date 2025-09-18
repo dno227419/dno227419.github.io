@@ -4,9 +4,9 @@
 - [flutter notes](#flutter-notes)
   - [what is flutter?](what-is-flutter)
   - [Key terms and definitions](key-terms-and-definitions)
-  - [layout and Design Widgets](layout-and-design-
-  - [Definitions with Structures](#fltter- definitions)
--  [Code Definitions](#code_definitions)
+  - [layout and Design Widgets](layout-and-design-widgets)
+  - [Definitions with Structures](#flutter-definitions)
+-  [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 ## Flutter Notes
@@ -55,17 +55,10 @@
 ## Flutter Definitions
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
-
 |------|----------------------------|----------------|-------------------|-------------|
 | main     | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  | return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'TSA Portfolio',
-      theme: ThemeData( |
-| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  | return Scaffold(
-      body: Column(
- mainAxisAlignment: MainAxisAlignment.start,
-        children: [ |
+| MaterialApp     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  | return MaterialApp( debugShowCheckedModeBanner: false,  title: 'TSA Portfolio',   theme: ThemeData( |
+| Scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  | return Scaffold(  body: Column( mainAxisAlignment: MainAxisAlignment.start,   children: [ |
 |  Column    | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 | Row | A widget that shows things side-by-side. | `Row(...)` |  |  |
 | Container | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
@@ -100,7 +93,7 @@
 
 
 
-
+## Code Definitions
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |                                           
 |------|------------|--------------------------|-------------------|-------------|
